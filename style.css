@@ -104,7 +104,7 @@ button {
   display: flex;
   max-height: 400px;
   z-index: 3;
-  background-color: #fff;
+  background-color: #1a1a1a;
   border-radius: 8px;
   border: 1px solid #e5e7eb;
   flex-direction: column;
