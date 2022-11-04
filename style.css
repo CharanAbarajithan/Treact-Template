@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {background-color: #1a1a1a;}
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
 
 .white__1 {
   color: #f7fafc !important;
@@ -42,7 +44,7 @@ html {
 
 a {
   text-decoration: none;
-  color: rgb(36, 62, 99);
+  color: white;
 }
 
 li {
@@ -174,7 +176,7 @@ button {
 }
 
 .title {
-  color: #243e63;
+  color: white;
   font-size: 48px;
   font-weight: 900;
   letter-spacing: 0.4px;
@@ -331,6 +333,7 @@ button {
   transition-property: border-color;
   transition-duration: 300ms;
   transition-timing-function: ease;
+  background-color: #1a1a1a;
   /* color: #9CA3AF; */
 }
 
@@ -421,7 +424,7 @@ button {
 .features__feature--title {
   text-align: left;
   font-size: 24px;
-  color: #243e63;
+  color: white;
 }
 
 .features__feature--description {
@@ -1073,7 +1076,7 @@ button {
 }
 
 .footer__background {
-  background-color: #6415ff;
+  background-color: #1a1a1a;
 }
 
 .footer__center {
@@ -1168,7 +1171,7 @@ button {
 .social__link {
   padding: 8px;
   border-radius: 50px;
-  background-color: #f7fafc;
+  background-color: #1a1a1a;
   display: flex;
   align-items: center;
   justify-content: center;
